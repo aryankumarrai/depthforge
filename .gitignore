@@ -9,10 +9,14 @@ __pycache__/
 Thumbs.db
 
 # Generated data
-outputs/*
-!outputs/.gitkeep
-data/synthetic/*
-!data/synthetic/.gitkeep
+outputs/synthetic_demo/
+data/synthetic/
+
+# Keep final demonstration outputs
+!outputs/final_demo/
+!outputs/final_demo/*.png
+!outputs/final_demo/*.ply
+!outputs/final_demo/*.json
 
 # Calibration captures can be large
 # Keep only small example files if intentionally committed.

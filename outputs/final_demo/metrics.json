@@ -1,0 +1,11 @@
+{
+  "method": "sgbm",
+  "image_width": 640,
+  "image_height": 480,
+  "valid_disparity_ratio": 0.7971549479166666,
+  "valid_depth_ratio": 0.7971549479166666,
+  "point_count": 244886,
+  "depth_median": 4900.0,
+  "depth_min": 4839.50634765625,
+  "depth_max": 5025.64111328125
+}
