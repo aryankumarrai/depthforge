@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated data
+outputs/*
+!outputs/.gitkeep
+data/synthetic/*
+!data/synthetic/.gitkeep
+
+# Calibration captures can be large
+# Keep only small example files if intentionally committed.
