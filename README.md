@@ -57,14 +57,14 @@ The repository includes a deterministic synthetic stereo dataset so that the com
 
 **Left Image**
 
-<img src="assets/stereo_left.png" alt="Left stereo image" width="100%">
+<img src="./assets/stereo_left.png" alt="Left stereo image" width="100%">
 
 </td>
 <td align="center" width="50%">
 
 **Right Image**
 
-<img src="assets/stereo_right.png" alt="Right stereo image" width="100%">
+<img src="./assets/stereo_right.png" alt="Right stereo image" width="100%">
 
 </td>
 </tr>
@@ -84,14 +84,14 @@ After stereo rectification, corresponding points are aligned along approximately
 
 **Rectified Left**
 
-<img src="outputs/final_demo/rectified_left.png" alt="Rectified left image" width="100%">
+<img src="./outputs/final_demo/rectified_left.png" alt="Rectified left image" width="100%">
 
 </td>
 <td align="center" width="50%">
 
 **Rectified Right**
 
-<img src="outputs/final_demo/rectified_right.png" alt="Rectified right image" width="100%">
+<img src="./outputs/final_demo/rectified_right.png" alt="Rectified right image" width="100%">
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ After stereo rectification, corresponding points are aligned along approximately
 
 The disparity map represents the estimated horizontal displacement between corresponding pixels in the left and right images.
 
-<img src="outputs/final_demo/disparity.png" alt="Disparity map" width="90%">
+<img src="./outputs/final_demo/disparity.png" alt="Disparity map" width="90%">
 
 Large disparity generally corresponds to objects that are closer to the cameras, while smaller disparity corresponds to farther regions.
 
@@ -119,7 +119,7 @@ Z = \frac{fB}{d}
 
 The resulting depth representation is visualized below.
 
-<img src="outputs/final_demo/depth_visualization.png" alt="Depth visualization" width="90%">
+<img src="./outputs/final_demo/depth_visualization.png" alt="Depth visualization" width="90%">
 
 ---
 
